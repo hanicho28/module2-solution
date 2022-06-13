@@ -1,2 +1,68 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Assignment Solution for Module 2 </title>
+</head>
+<body>
+
+    <h1> Our Menu </h1> 
+
+    <div class="container">
+        
+        <div class="chicken"> <p>Lorem ipsum dolor sit amet. 
+            Et molestiae dolorem a recusandae error est consequatur odit ut quia 
+            laborum et molestias enim ut tempora perferendis? Sit possimus architecto non quas perspiciatis id officia iusto. </p></div>
+        <div class="beef"> <p>Lorem ipsum dolor sit amet. 
+                Et molestiae dolorem a recusandae error est consequatur odit ut quia 
+                laborum et molestias enim ut tempora perferendis? Sit possimus architecto non quas perspiciatis id officia iusto. </p></div>
+        <div class="sushi"> <p>Lorem ipsum dolor sit amet. 
+                    Et molestiae dolorem a recusandae error est consequatur odit ut quia 
+                    laborum et molestias enim ut tempora perferendis? Sit possimus architecto non quas perspiciatis id officia iusto. </p></div>
+
+    </div>
+    
+</body> 
+
+<style>
+
+    h1 { text-align: center;}
+
+    .chicken, .beef, .sushi {
+
+        width: 325px;
+        height: 80px;
+        background-color: white; float: left;
+        border: 1px solid black ;
+        padding: 40px;
+        margin: 20px;
+        text-shadow: 0px;
+        background-color: rgb(143, 138, 138);
+}
+
+
+@media (max-width: 992px) {
+    .chicken, .beef, .sushi {
+        width: 80%; 
+    }
+}
+    
+@media (max-width: 500px) {
+
+.chicken, .beef, .sushi {
+    
+    width: 92%;
+}
+}
+
+@media (max-width: 800px) {
+
+.sushi {
+
+    width: 57%;
+}
+
+}
+
+</style>
+</html> 
